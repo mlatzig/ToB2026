@@ -29,7 +29,8 @@ class ReleaseWorkflowTest {
         assertTrue(jdk.find(), "pom.xml has tob.release.jdk");
         for (String required : List.of("tags:\n      - \"v*\"", "os: windows-latest", "os: ubuntu-22.04",
                 "distribution: temurin", "java-version: \"" + jdk.group(1) + ".0.LTS\"",
-                "mvn -B -Prelease clean package -DexcludedGroups=offscreen", "options: -Dtob.release.linux=false",
+                "mvn -B -Prelease clean package -DexcludedGroups=offscreen,timing", "timeout-minutes: 30",
+                "options: -Dtob.release.linux=false",
                 "contents: write", "--draft", "ToB2026-$version-$platform.zip")) {
             assertTrue(workflow.contains(required), "release.yml: " + required);
         }

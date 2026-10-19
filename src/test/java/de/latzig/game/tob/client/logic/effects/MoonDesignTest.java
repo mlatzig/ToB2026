@@ -10,6 +10,7 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Optional;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import de.latzig.game.tob.client.logic.game.SimDriver;
@@ -286,8 +287,10 @@ class MoonDesignTest {
      * measurement (the logged line) on the author's PC; it is not a per-build gate, because the generation runs on
      * the common fork-join pool and slows down with any other load on the machine (final review, Important 1). The
      * build fails only if the budget itself is exceeded (about six times the measured time on the author's PC).
+     * Tagged {@code timing}: the slower GitHub Actions runners leave it out (Phase 7d).
      */
     @Test
+    @Tag("timing")
     void theGiantMoonsTexturesStayWithinTheBudget() {
         MoonDesign giant = null;
         for (int seed = 0; giant == null; seed++) {

@@ -108,8 +108,8 @@ without WSL or that JDK the build makes the Windows package only and says why (`
 it on purpose).
 
 On GitHub every version tag `v*` starts the workflow `.github/workflows/release.yml`: it builds and tests both
-packages on a Windows and a Linux runner (without the offscreen tests: the runners have no graphics card) and
-attaches them to a draft release.
+packages on a Windows and a Linux runner (without the offscreen tests, as the runners have no graphics card, and
+without the timing test) and attaches them to a draft release.
 
 The pictures in `docs/images` are made offscreen by a tool in the test classes (one command line):
 

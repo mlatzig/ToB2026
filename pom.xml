@@ -123,9 +123,15 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.6.0</version>
                 <configuration>
+                    <!-- Phase 7d: a hanging test ends the build instead of blocking it (e.g. on a CI runner) -->
+                    <forkedProcessTimeoutInSeconds>600</forkedProcessTimeoutInSeconds>
                     <systemPropertyVariables>
                         <!-- Phase 3c safety net: no test writes to the development user folder -->
                         <tob.userdir>${project.build.directory}/test-userdir</tob.userdir>
+                        <!-- Phase 7d: jME 3.9's scene-graph thread warden (active with -ea) keeps the main thread of
+                             the first headless app of the JVM; the smoke tests start several apps one after the
+                             other, so the warden is switched off for the tests (the game runs without -ea) -->
+                        <nothreadwarden>true</nothreadwarden>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

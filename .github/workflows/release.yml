@@ -1,6 +1,7 @@
 # ToB 2026 (Phase 7d decision 5): every version tag v* builds and tests the Windows and the Linux package with the
 # Eclipse Temurin of pom.xml (tob.release.jdk) and attaches both ZIPs to a draft release; the author checks the
-# draft and publishes it by hand. The offscreen tests are left out: the runners have no graphics card.
+# draft and publishes it by hand. The offscreen tests are left out (the runners have no graphics card), and so is the
+# timing test (the runners are slower than the author's PC).
 name: Release
 
 on:
@@ -31,6 +32,7 @@ jobs:
             # oldest supported runner: the launcher then also runs on older glibc (e.g. Ubuntu 22.04)
             options: ""
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
     steps:
       - name: Check out
         uses: actions/checkout@v5
@@ -41,7 +43,7 @@ jobs:
           java-version: "21.0.8+9.0.LTS"
           cache: maven
       - name: Build, test and package
-        run: mvn -B -Prelease clean package -DexcludedGroups=offscreen ${{ matrix.options }}
+        run: mvn -B -Prelease clean package -DexcludedGroups=offscreen,timing ${{ matrix.options }}
       - name: Keep the package
         uses: actions/upload-artifact@v4
         with:
