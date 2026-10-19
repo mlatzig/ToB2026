@@ -22,7 +22,7 @@ class ReadmeTest {
         String readme = PublishedDocs.read("README.md");
         for (String required : List.of("*Tower of Babel*", "Pete Cooke", "free PC version", "non-commercial",
                 "not affiliated with or endorsed by MicroProse", "will be removed", "mvn compile exec:java",
-                "-Dtob.userdir", "Java 21", "| F9, F10 |", "GNU General Public License 3.0 or later (`LICENSE`)",
+                "-Dtob.userdir", "Java 21", "| F9, F10 |", "GNU General Public License 3.0 or later (`LICENSE`, the scope in `NOTICE`)",
                 "Creative Commons BY-NC-SA 4.0 (`LICENSE-ASSETS`)", "covered by neither licence above",
                 "| Towers you build with the Tower Designer | yours |", "Marcus Pantel", "Chris Newcombe",
                 "[CREDITS.md](CREDITS.md)", "[docs/formats/README.md](docs/formats/README.md)",

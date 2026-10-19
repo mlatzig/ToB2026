@@ -1,0 +1,9 @@
+ToB 2026 - licence notice
+Copyright (C) 2026 Mario Latzig
+
+The program code of ToB 2026 - everything under src/ except src/main/resources/assets, plus pom.xml and
+the documents - is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. It is distributed WITHOUT ANY WARRANTY; see the license in LICENSE. The
+assets are licensed in LICENSE-ASSETS; the original towers and the third-party libraries are not covered
+by either file (see README.md and CREDITS.md).

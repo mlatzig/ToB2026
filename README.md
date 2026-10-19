@@ -122,7 +122,7 @@ mvn test-compile exec:java -Dexec.mainClass=de.latzig.game.tob.client.ReadmeScre
 
 | Part | Licence |
 |---|---|
-| Program code: everything under `src/` except `src/main/resources/assets`, plus `pom.xml` and the documents | GNU General Public License 3.0 or later (`LICENSE`) |
+| Program code: everything under `src/` except `src/main/resources/assets`, plus `pom.xml` and the documents | GNU General Public License 3.0 or later (`LICENSE`, the scope in `NOTICE`) |
 | Own assets: models, textures, the bitmap font, the GUI and effect atlases, the edited sounds and the music (`src/main/resources/assets` except `towers/`) | Creative Commons BY-NC-SA 4.0 (`LICENSE-ASSETS`) |
 | The original towers (`src/main/resources/assets/towers`) | (c) Pete Cooke and the other tower authors; included with Pete Cooke's permission for non-commercial use; covered by neither licence above |
 | Towers you build with the Tower Designer | yours |

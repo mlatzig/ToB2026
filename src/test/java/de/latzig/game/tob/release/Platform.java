@@ -22,7 +22,8 @@ enum Platform {
     /** Phase 7d: the Linux launcher's icon where {@code jpackage} puts it; the desktop entry names it. */
     static final String LINUX_ICON = "lib/tob2026.png";
     /** The documents copied into the image's top folder. */
-    static final List<String> DOCUMENTS = List.of("README.md", "CREDITS.md", "LICENSE", "LICENSE-ASSETS");
+    static final List<String> DOCUMENTS = List.of("README.md", "CREDITS.md", "LICENSE", "LICENSE-ASSETS",
+            "NOTICE");
     /**
      * The licence texts, from {@code src/package/licenses} (sources and SHA-256 in its {@code SOURCES.md}), in the
      * image's {@code licenses}: the LGPL texts (spec decision 6) and the texts the permissive licences of the
