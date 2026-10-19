@@ -1,0 +1,82 @@
+# ToB 2026 (Phase 7d decision 5): every version tag v* builds and tests the Windows and the Linux package with the
+# Eclipse Temurin of pom.xml (tob.release.jdk) and attaches both ZIPs to a draft release; the author checks the
+# draft and publishes it by hand. The offscreen tests are left out: the runners have no graphics card.
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  package:
+    name: Package (${{ matrix.platform }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            platform: windows
+            # the Linux package comes from the Linux runner, not from WSL
+            options: -Dtob.release.linux=false
+          - os: ubuntu-latest
+            platform: linux
+            options: ""
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Set up Eclipse Temurin
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21.0.8+9"
+          cache: maven
+      - name: Build, test and package
+        run: mvn -B -Prelease clean package -DexcludedGroups=offscreen ${{ matrix.options }}
+      - name: Keep the package
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-${{ matrix.platform }}
+          path: target/release/ToB2026-*-${{ matrix.platform }}.zip
+          if-no-files-found: error
+
+  draft-release:
+    name: Draft release
+    needs: package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Fetch the packages
+        uses: actions/download-artifact@v4
+        with:
+          pattern: package-*
+          path: packages
+          merge-multiple: true
+      - name: Attach them to the draft release of the tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          version="${TAG#v}"
+          for platform in windows linux; do
+            if [ ! -f "packages/ToB2026-$version-$platform.zip" ]; then
+              echo "packages/ToB2026-$version-$platform.zip is missing: does the tag match the version in pom.xml?"
+              exit 1
+            fi
+          done
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" packages/*.zip --clobber
+          else
+            gh release create "$TAG" packages/*.zip --draft --verify-tag --title "ToB 2026 $version" \
+              --notes "Windows and Linux packages of ToB 2026 $version: unpack and start; see README.md."
+          fi

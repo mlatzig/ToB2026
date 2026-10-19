@@ -1,0 +1,8 @@
+# Maven's build folder
+/target/
+# IDE settings
+/.idea/
+*.iml
+/.classpath
+/.project
+/.settings/

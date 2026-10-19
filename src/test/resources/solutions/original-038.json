@@ -1,0 +1,221 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-038",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 783,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-12T00:00:00Z",
+  "frames" : 776,
+  "towerChecksum" : "c68ba47b06f5e46c1797b6572131c5297b5bc90b1637ac8d1536eacfe677eed2",
+  "game" : "ToB 2026 solver 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 0,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 5,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 6,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 38,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 70,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 74,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 106,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 107,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 139,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 140,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 144,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 145,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 177,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 178,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 210,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 242,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 243,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 247,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 279,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 280,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 284,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 285,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 317,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 349,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 381,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 413,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 417,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 433,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 465,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 466,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 498,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 530,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 562,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 594,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 598,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 630,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 662,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 694,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 726,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 758,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    }
+  ]
+}

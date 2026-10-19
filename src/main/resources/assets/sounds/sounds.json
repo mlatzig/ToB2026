@@ -1,0 +1,222 @@
+{
+  "format" : "tob2026-sounds",
+  "version" : 1,
+  "sounds" : {
+    "0090" : {
+      "file" : "sounds/0090-buttonclick.wav",
+      "loop" : false,
+      "positional" : false,
+      "minDistance" : 0.0,
+      "maxDistance" : 0.0,
+      "detail" : "MED",
+      "trigger" : "HUD panel button click (ToB 2005 hud.cpp:141-459; buffer twr.cpp:1071)"
+    },
+    "0091" : {
+      "file" : "sounds/0091-noise.wav",
+      "loop" : true,
+      "positional" : false,
+      "minDistance" : 0.0,
+      "maxDistance" : 0.0,
+      "detail" : "MED",
+      "trigger" : "static noise while the active camera is disabled (ToB 2005 gml.cpp:3617-3621; buffer twr.cpp:1074)"
+    },
+    "0092" : {
+      "file" : "sounds/0092-push.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.0625,
+      "maxDistance" : 32.0,
+      "detail" : "LOW",
+      "trigger" : "spider pushes (ToB 2005 gml.cpp:993, 997, 1001; buffers twr.cpp:1082-1084); pushed elements play it with min distance 16 units = 0.5 fields and detail MED (gml.cpp:1065; buffer twr.cpp:1184)"
+    },
+    "0900" : {
+      "file" : "sounds/0900-explosion.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 1.0,
+      "maxDistance" : 256.0,
+      "detail" : "MED",
+      "trigger" : "normal element explosion (ToB 2005 twr.cpp:2521, called from twr.cpp:3593-3764; buffer twr.cpp:1059)"
+    },
+    "0901" : {
+      "file" : "sounds/0901-explosion.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 256.0,
+      "detail" : "HIGH",
+      "trigger" : "short explosion: lightning strike, destroyed floor, exchanger (ToB 2005 twr.cpp:984, 3407, 3768; buffer twr.cpp:1061)"
+    },
+    "0902" : {
+      "file" : "sounds/0902-explosion.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 256.0,
+      "detail" : "LOW",
+      "trigger" : "big explosion: player spider destroyed (ToB 2005 twr.cpp:2958-2964; buffer twr.cpp:1063)"
+    },
+    "0903" : {
+      "file" : "sounds/0903-explosion.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 256.0,
+      "detail" : "HIGH",
+      "trigger" : "deep explosion: meteor impact (ToB 2005 twr.cpp:1030; buffer twr.cpp:1065)"
+    },
+    "0904" : {
+      "file" : "sounds/0904-explosion.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 256.0,
+      "detail" : "MED",
+      "trigger" : "glass explosion: prism or reflector (ToB 2005 twr.cpp:3711-3731; buffer twr.cpp:1067)"
+    },
+    "1000" : {
+      "file" : "sounds/1000-spd.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "MED",
+      "trigger" : "spider step, every 64 frames while walking (ToB 2005 twr.cpp:2815-2828; buffers twr.cpp:1077-1079)"
+    },
+    "1900" : {
+      "file" : "sounds/1900-lft.wav",
+      "loop" : true,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 32.0,
+      "detail" : "LOW",
+      "trigger" : "lift running (ToB 2005 twr.cpp:1921-1944; buffer twr.cpp:1096)"
+    },
+    "1901" : {
+      "file" : "sounds/1901-lft.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 32.0,
+      "detail" : "LOW",
+      "trigger" : "lift stops (ToB 2005 twr.cpp:1930-1931; buffer twr.cpp:1099)"
+    },
+    "2000" : {
+      "file" : "sounds/2000-zap.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.125,
+      "maxDistance" : 32.0,
+      "detail" : "LOW",
+      "trigger" : "player zapper fires (ToB 2005 gml.cpp:704-705, 950-951; buffer twr.cpp:1086)"
+    },
+    "2500" : {
+      "file" : "sounds/2500-kld.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 1.0,
+      "maxDistance" : 32.0,
+      "detail" : "MED",
+      "trigger" : "klondike collected (ToB 2005 gml.cpp:769-770; buffer twr.cpp:1144)"
+    },
+    "3200" : {
+      "file" : "sounds/3200-enz.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.25,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "facing enemy zapper fires, every 192 + rand(128) frames (ToB 2005 gml.cpp:1091-1092; buffer twr.cpp:1119)"
+    },
+    "3300" : {
+      "file" : "sounds/3300-rzn.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "rotating enemy zapper fires, once per direction (ToB 2005 gml.cpp:1136-1137; buffer twr.cpp:1123)"
+    },
+    "4000" : {
+      "file" : "sounds/4000-hop.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "hopper lands, every 256 frames (ToB 2005 gml.cpp:1349-1350; buffer twr.cpp:1136)"
+    },
+    "4100" : {
+      "file" : "sounds/4100-wrm.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.125,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "worm step, every 64 frames (ToB 2005 gml.cpp:1198-1199; buffer twr.cpp:1128)"
+    },
+    "4200" : {
+      "file" : "sounds/4200-wat.wav",
+      "loop" : true,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "watcher active (ToB 2005 gml.cpp:1296-1303; buffer twr.cpp:1132)"
+    },
+    "5400" : {
+      "file" : "sounds/5400-exc.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "MED",
+      "trigger" : "exchanger used (ToB 2005 gml.cpp:905-906; buffer twr.cpp:1169)"
+    },
+    "5500" : {
+      "file" : "sounds/5500-cnv.wav",
+      "loop" : true,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "converter, always running (ToB 2005 gml.cpp:1471-1473; buffer twr.cpp:1149)"
+    },
+    "5600" : {
+      "file" : "sounds/5600-wip.wav",
+      "loop" : true,
+      "positional" : true,
+      "minDistance" : 2.0,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "wiper while wiping (ToB 2005 gml.cpp:1563-1570; buffer twr.cpp:1165)"
+    },
+    "5800" : {
+      "file" : "sounds/5800-fcr.wav",
+      "loop" : true,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "forcer up and down while active (ToB 2005 gml.cpp:1481-1489, 1500-1508; buffers twr.cpp:1153, 1157)"
+    },
+    "5900" : {
+      "file" : "sounds/5900-frz.wav",
+      "loop" : false,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "freezer activated (ToB 2005 gml.cpp:879-880; buffer twr.cpp:1161)"
+    },
+    "6100" : {
+      "file" : "sounds/6100-tmb.wav",
+      "loop" : true,
+      "positional" : true,
+      "minDistance" : 0.5,
+      "maxDistance" : 32.0,
+      "detail" : "HIGH",
+      "trigger" : "timebomb ticking (ToB 2005 gml.cpp:1418-1424; buffer twr.cpp:1140)"
+    }
+  }
+}

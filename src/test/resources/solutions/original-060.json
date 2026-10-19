@@ -1,0 +1,131 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-060",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 391,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-12T00:00:00Z",
+  "frames" : 389,
+  "towerChecksum" : "a59ebac53a73d9019fb1498fb79f89b6fcd15df6d4cc8c4ac66640eb07b0e5da",
+  "game" : "ToB 2026 solver 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 0,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 33,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 49,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 81,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 85,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 101,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 117,
+      "type" : "SelectSpider",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 118,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 150,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 182,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 214,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 215,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 216,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 248,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 252,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 284,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 288,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 289,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 321,
+      "type" : "Back",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 353,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 357,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 365,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    }
+  ]
+}

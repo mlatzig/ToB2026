@@ -1,0 +1,446 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-073",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 1504,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-12T00:00:00Z",
+  "frames" : 1502,
+  "towerChecksum" : "3aa496336577e5eb83e2bf0d96400a8992e5133d518e289ca27f07f78160576d",
+  "game" : "ToB 2026 solver 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 0,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 1,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 22,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 23,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 55,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 87,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 103,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 119,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 151,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 182,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 183,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 215,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 247,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 278,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 279,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 291,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 292,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 324,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 356,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 388,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 420,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 452,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 483,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 484,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 516,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 548,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 560,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 564,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 572,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 576,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 580,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 595,
+      "type" : "SelectSpider",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 596,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 627,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 628,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 640,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 641,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 645,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 646,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 677,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 678,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 710,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 742,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 773,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 774,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 806,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 838,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 870,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 901,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 902,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 934,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 966,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 978,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 979,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 983,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 984,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1015,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1016,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1028,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1032,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1059,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1060,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1064,
+      "type" : "Fire",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1065,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1096,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1097,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1109,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1110,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1111,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1142,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1143,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1175,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1207,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1238,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1239,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1271,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1303,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1335,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1366,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1367,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1399,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1431,
+      "type" : "Back",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1462,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1463,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1475,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1479,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    }
+  ]
+}

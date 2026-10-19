@@ -1,0 +1,1342 @@
+{
+  "format" : "tob2026-guiatlas",
+  "version" : 1,
+  "image" : "gui/gui-atlas.png",
+  "imageWidth" : 1024,
+  "imageHeight" : 1024,
+  "regions" : {
+    "editor.bfl" : {
+      "x" : 768,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.blk" : {
+      "x" : 992,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.box" : {
+      "x" : 808,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.col" : {
+      "x" : 932,
+      "y" : 228,
+      "w" : 24,
+      "h" : 24
+    },
+    "editor.cur" : {
+      "x" : 848,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.cve" : {
+      "x" : 832,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.cvn" : {
+      "x" : 800,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.exc" : {
+      "x" : 992,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fcd" : {
+      "x" : 896,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fcu" : {
+      "x" : 864,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.flr" : {
+      "x" : 768,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fpe" : {
+      "x" : 896,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fpn" : {
+      "x" : 864,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fps" : {
+      "x" : 928,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fpw" : {
+      "x" : 960,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.frz" : {
+      "x" : 928,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fze" : {
+      "x" : 768,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fzn" : {
+      "x" : 992,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fzs" : {
+      "x" : 800,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.fzw" : {
+      "x" : 832,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.grb" : {
+      "x" : 928,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.hop" : {
+      "x" : 896,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.kld" : {
+      "x" : 992,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.lfd1" : {
+      "x" : 848,
+      "y" : 224,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.lfd2" : {
+      "x" : 888,
+      "y" : 224,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.lfu1" : {
+      "x" : 768,
+      "y" : 224,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.lfu2" : {
+      "x" : 808,
+      "y" : 224,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.lze" : {
+      "x" : 928,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.lzn" : {
+      "x" : 960,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.pne" : {
+      "x" : 832,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.pnw" : {
+      "x" : 800,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.prm" : {
+      "x" : 928,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.pse" : {
+      "x" : 864,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.psh" : {
+      "x" : 960,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.psw" : {
+      "x" : 896,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.rel" : {
+      "x" : 768,
+      "y" : 160,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.rpn" : {
+      "x" : 768,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.rzn" : {
+      "x" : 992,
+      "y" : 96,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.spc" : {
+      "x" : 888,
+      "y" : 66,
+      "w" : 3,
+      "h" : 3
+    },
+    "editor.tmb" : {
+      "x" : 960,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.wat" : {
+      "x" : 864,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.wip" : {
+      "x" : 960,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.woe" : {
+      "x" : 800,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.won" : {
+      "x" : 832,
+      "y" : 128,
+      "w" : 32,
+      "h" : 32
+    },
+    "editor.zap" : {
+      "x" : 896,
+      "y" : 64,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.button_inset_background" : {
+      "x" : 645,
+      "y" : 197,
+      "w" : 118,
+      "h" : 22
+    },
+    "gui.button_inset_left_bottom" : {
+      "x" : 640,
+      "y" : 219,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_inset_left_mid" : {
+      "x" : 640,
+      "y" : 197,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.button_inset_left_top" : {
+      "x" : 640,
+      "y" : 192,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_inset_mid_bottom" : {
+      "x" : 645,
+      "y" : 219,
+      "w" : 108,
+      "h" : 5
+    },
+    "gui.button_inset_mid_top" : {
+      "x" : 645,
+      "y" : 192,
+      "w" : 118,
+      "h" : 5
+    },
+    "gui.button_inset_right_bottom" : {
+      "x" : 763,
+      "y" : 219,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_inset_right_mid" : {
+      "x" : 763,
+      "y" : 197,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.button_inset_right_top" : {
+      "x" : 763,
+      "y" : 192,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_outset_background" : {
+      "x" : 517,
+      "y" : 197,
+      "w" : 118,
+      "h" : 22
+    },
+    "gui.button_outset_left_bottom" : {
+      "x" : 512,
+      "y" : 219,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_outset_left_mid" : {
+      "x" : 512,
+      "y" : 197,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.button_outset_left_top" : {
+      "x" : 512,
+      "y" : 192,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_outset_mid_bottom" : {
+      "x" : 517,
+      "y" : 219,
+      "w" : 118,
+      "h" : 5
+    },
+    "gui.button_outset_mid_top" : {
+      "x" : 517,
+      "y" : 192,
+      "w" : 118,
+      "h" : 5
+    },
+    "gui.button_outset_right_bottom" : {
+      "x" : 635,
+      "y" : 219,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.button_outset_right_mid" : {
+      "x" : 635,
+      "y" : 197,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.button_outset_right_top" : {
+      "x" : 635,
+      "y" : 192,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.cursor_normal" : {
+      "x" : 0,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.cursor_wait" : {
+      "x" : 32,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.group_inset_background" : {
+      "x" : 645,
+      "y" : 229,
+      "w" : 118,
+      "h" : 22
+    },
+    "gui.group_inset_left_bottom" : {
+      "x" : 640,
+      "y" : 251,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_inset_left_mid" : {
+      "x" : 640,
+      "y" : 229,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.group_inset_left_top" : {
+      "x" : 640,
+      "y" : 224,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_inset_mid_bottom" : {
+      "x" : 645,
+      "y" : 251,
+      "w" : 118,
+      "h" : 5
+    },
+    "gui.group_inset_mid_top" : {
+      "x" : 645,
+      "y" : 224,
+      "w" : 118,
+      "h" : 5
+    },
+    "gui.group_inset_right_bottom" : {
+      "x" : 763,
+      "y" : 251,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_inset_right_mid" : {
+      "x" : 763,
+      "y" : 229,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.group_inset_right_top" : {
+      "x" : 763,
+      "y" : 224,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_outset_background" : {
+      "x" : 517,
+      "y" : 229,
+      "w" : 118,
+      "h" : 22
+    },
+    "gui.group_outset_left_bottom" : {
+      "x" : 512,
+      "y" : 251,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_outset_left_mid" : {
+      "x" : 512,
+      "y" : 229,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.group_outset_left_top" : {
+      "x" : 512,
+      "y" : 224,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_outset_mid_bottom" : {
+      "x" : 518,
+      "y" : 251,
+      "w" : 117,
+      "h" : 5
+    },
+    "gui.group_outset_mid_top" : {
+      "x" : 517,
+      "y" : 224,
+      "w" : 118,
+      "h" : 5
+    },
+    "gui.group_outset_right_bottom" : {
+      "x" : 635,
+      "y" : 251,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.group_outset_right_mid" : {
+      "x" : 635,
+      "y" : 229,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.group_outset_right_top" : {
+      "x" : 635,
+      "y" : 224,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.icon_error" : {
+      "x" : 160,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.icon_information" : {
+      "x" : 128,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.icon_question" : {
+      "x" : 96,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.icon_warning" : {
+      "x" : 64,
+      "y" : 192,
+      "w" : 32,
+      "h" : 32
+    },
+    "gui.listbox_background" : {
+      "x" : 773,
+      "y" : 29,
+      "w" : 123,
+      "h" : 22
+    },
+    "gui.listbox_background_selected" : {
+      "x" : 897,
+      "y" : 29,
+      "w" : 121,
+      "h" : 22
+    },
+    "gui.listbox_left_bottom" : {
+      "x" : 768,
+      "y" : 51,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.listbox_left_mid" : {
+      "x" : 768,
+      "y" : 29,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.listbox_left_top" : {
+      "x" : 768,
+      "y" : 24,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.listbox_mid_bottom" : {
+      "x" : 773,
+      "y" : 51,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.listbox_mid_top" : {
+      "x" : 773,
+      "y" : 24,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.listbox_right_bottom" : {
+      "x" : 1019,
+      "y" : 51,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.listbox_right_mid" : {
+      "x" : 1019,
+      "y" : 29,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.listbox_right_top" : {
+      "x" : 1019,
+      "y" : 24,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.menu_left_bottom" : {
+      "x" : 512,
+      "y" : 187,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.menu_left_mid" : {
+      "x" : 512,
+      "y" : 157,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.menu_left_separator" : {
+      "x" : 512,
+      "y" : 181,
+      "w" : 5,
+      "h" : 6
+    },
+    "gui.menu_left_top" : {
+      "x" : 512,
+      "y" : 152,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.menu_mid" : {
+      "x" : 517,
+      "y" : 157,
+      "w" : 123,
+      "h" : 24
+    },
+    "gui.menu_mid_bottom" : {
+      "x" : 517,
+      "y" : 187,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.menu_mid_selected" : {
+      "x" : 640,
+      "y" : 157,
+      "w" : 123,
+      "h" : 24
+    },
+    "gui.menu_mid_separator" : {
+      "x" : 517,
+      "y" : 181,
+      "w" : 123,
+      "h" : 6
+    },
+    "gui.menu_mid_top" : {
+      "x" : 517,
+      "y" : 152,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.menu_right_bottom" : {
+      "x" : 763,
+      "y" : 187,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.menu_right_mid" : {
+      "x" : 763,
+      "y" : 157,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.menu_right_separator" : {
+      "x" : 763,
+      "y" : 181,
+      "w" : 5,
+      "h" : 6
+    },
+    "gui.menu_right_top" : {
+      "x" : 763,
+      "y" : 152,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.progress_background" : {
+      "x" : 773,
+      "y" : 5,
+      "w" : 123,
+      "h" : 14
+    },
+    "gui.progress_indicator" : {
+      "x" : 896,
+      "y" : 5,
+      "w" : 123,
+      "h" : 14
+    },
+    "gui.progress_left_bottom" : {
+      "x" : 768,
+      "y" : 19,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.progress_left_mid" : {
+      "x" : 768,
+      "y" : 5,
+      "w" : 5,
+      "h" : 14
+    },
+    "gui.progress_left_top" : {
+      "x" : 768,
+      "y" : 0,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.progress_mid_bottom" : {
+      "x" : 773,
+      "y" : 19,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.progress_mid_top" : {
+      "x" : 773,
+      "y" : 0,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.progress_right_bottom" : {
+      "x" : 1019,
+      "y" : 19,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.progress_right_mid" : {
+      "x" : 1019,
+      "y" : 5,
+      "w" : 5,
+      "h" : 14
+    },
+    "gui.progress_right_top" : {
+      "x" : 1019,
+      "y" : 0,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.textbox_background" : {
+      "x" : 773,
+      "y" : 29,
+      "w" : 123,
+      "h" : 22
+    },
+    "gui.textbox_left_bottom" : {
+      "x" : 768,
+      "y" : 51,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.textbox_left_mid" : {
+      "x" : 768,
+      "y" : 29,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.textbox_left_top" : {
+      "x" : 768,
+      "y" : 24,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.textbox_mid_bottom" : {
+      "x" : 773,
+      "y" : 51,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.textbox_mid_top" : {
+      "x" : 773,
+      "y" : 24,
+      "w" : 123,
+      "h" : 5
+    },
+    "gui.textbox_right_bottom" : {
+      "x" : 1019,
+      "y" : 51,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.textbox_right_mid" : {
+      "x" : 1019,
+      "y" : 29,
+      "w" : 5,
+      "h" : 22
+    },
+    "gui.textbox_right_top" : {
+      "x" : 1019,
+      "y" : 24,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.window_background" : {
+      "x" : 517,
+      "y" : 72,
+      "w" : 222,
+      "h" : 50
+    },
+    "gui.window_grip" : {
+      "x" : 752,
+      "y" : 112,
+      "w" : 16,
+      "h" : 16
+    },
+    "gui.window_left_active_caption" : {
+      "x" : 512,
+      "y" : 0,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_left_border" : {
+      "x" : 512,
+      "y" : 72,
+      "w" : 5,
+      "h" : 51
+    },
+    "gui.window_left_bottom_border" : {
+      "x" : 512,
+      "y" : 123,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.window_left_inactive_caption" : {
+      "x" : 512,
+      "y" : 24,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_left_menu" : {
+      "x" : 512,
+      "y" : 48,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_left_menu2" : {
+      "x" : 512,
+      "y" : 128,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_mid_active_caption" : {
+      "x" : 517,
+      "y" : 0,
+      "w" : 246,
+      "h" : 24
+    },
+    "gui.window_mid_bottom_border" : {
+      "x" : 517,
+      "y" : 123,
+      "w" : 230,
+      "h" : 5
+    },
+    "gui.window_mid_inactive_caption" : {
+      "x" : 517,
+      "y" : 24,
+      "w" : 246,
+      "h" : 24
+    },
+    "gui.window_mid_menu" : {
+      "x" : 517,
+      "y" : 48,
+      "w" : 123,
+      "h" : 24
+    },
+    "gui.window_mid_menu2" : {
+      "x" : 517,
+      "y" : 128,
+      "w" : 123,
+      "h" : 24
+    },
+    "gui.window_mid_menu2_selected" : {
+      "x" : 640,
+      "y" : 128,
+      "w" : 123,
+      "h" : 24
+    },
+    "gui.window_mid_menu_selected" : {
+      "x" : 640,
+      "y" : 48,
+      "w" : 123,
+      "h" : 24
+    },
+    "gui.window_right_active_caption" : {
+      "x" : 763,
+      "y" : 0,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_right_border" : {
+      "x" : 747,
+      "y" : 72,
+      "w" : 5,
+      "h" : 51
+    },
+    "gui.window_right_bottom_border" : {
+      "x" : 747,
+      "y" : 123,
+      "w" : 5,
+      "h" : 5
+    },
+    "gui.window_right_inactive_caption" : {
+      "x" : 763,
+      "y" : 24,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_right_menu" : {
+      "x" : 763,
+      "y" : 48,
+      "w" : 5,
+      "h" : 24
+    },
+    "gui.window_right_menu2" : {
+      "x" : 763,
+      "y" : 128,
+      "w" : 5,
+      "h" : 24
+    },
+    "panel.bar" : {
+      "x" : 0,
+      "y" : 352,
+      "w" : 1024,
+      "h" : 32
+    },
+    "panel.caption_max" : {
+      "x" : 0,
+      "y" : 480,
+      "w" : 1024,
+      "h" : 32
+    },
+    "panel.caption_min" : {
+      "x" : 0,
+      "y" : 448,
+      "w" : 1024,
+      "h" : 32
+    },
+    "panel.clear0" : {
+      "x" : 812,
+      "y" : 640,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.clear1" : {
+      "x" : 812,
+      "y" : 896,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.delete0" : {
+      "x" : 812,
+      "y" : 580,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.delete1" : {
+      "x" : 812,
+      "y" : 836,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.down0" : {
+      "x" : 312,
+      "y" : 640,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.down1" : {
+      "x" : 312,
+      "y" : 896,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.down2" : {
+      "x" : 400,
+      "y" : 384,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.east0" : {
+      "x" : 62,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.east1" : {
+      "x" : 62,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.fire0" : {
+      "x" : 212,
+      "y" : 520,
+      "w" : 400,
+      "h" : 60
+    },
+    "panel.fire1" : {
+      "x" : 212,
+      "y" : 776,
+      "w" : 400,
+      "h" : 60
+    },
+    "panel.fire2" : {
+      "x" : 0,
+      "y" : 384,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.grabber0" : {
+      "x" : 12,
+      "y" : 640,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.grabber1" : {
+      "x" : 12,
+      "y" : 896,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.left0" : {
+      "x" : 212,
+      "y" : 580,
+      "w" : 100,
+      "h" : 120
+    },
+    "panel.left1" : {
+      "x" : 212,
+      "y" : 836,
+      "w" : 100,
+      "h" : 120
+    },
+    "panel.north0" : {
+      "x" : 12,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.north1" : {
+      "x" : 12,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.pause0" : {
+      "x" : 212,
+      "y" : 700,
+      "w" : 400,
+      "h" : 60
+    },
+    "panel.pause1" : {
+      "x" : 212,
+      "y" : 956,
+      "w" : 400,
+      "h" : 60
+    },
+    "panel.pause2" : {
+      "x" : 600,
+      "y" : 384,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.prg_down0" : {
+      "x" : 712,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_down1" : {
+      "x" : 712,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_fire0" : {
+      "x" : 862,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_fire1" : {
+      "x" : 862,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_left0" : {
+      "x" : 812,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_left1" : {
+      "x" : 812,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_right0" : {
+      "x" : 762,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_right1" : {
+      "x" : 762,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_spc0" : {
+      "x" : 612,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_spc1" : {
+      "x" : 612,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_up0" : {
+      "x" : 662,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.prg_up1" : {
+      "x" : 662,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.pusher0" : {
+      "x" : 12,
+      "y" : 580,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.pusher1" : {
+      "x" : 12,
+      "y" : 836,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.right0" : {
+      "x" : 512,
+      "y" : 580,
+      "w" : 100,
+      "h" : 120
+    },
+    "panel.right1" : {
+      "x" : 512,
+      "y" : 836,
+      "w" : 100,
+      "h" : 120
+    },
+    "panel.run0" : {
+      "x" : 612,
+      "y" : 580,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.run1" : {
+      "x" : 612,
+      "y" : 836,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.run_all0" : {
+      "x" : 612,
+      "y" : 640,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.run_all1" : {
+      "x" : 612,
+      "y" : 896,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.south0" : {
+      "x" : 112,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.south1" : {
+      "x" : 112,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.stop0" : {
+      "x" : 612,
+      "y" : 520,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.stop1" : {
+      "x" : 612,
+      "y" : 776,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.title" : {
+      "x" : 0,
+      "y" : 256,
+      "w" : 768,
+      "h" : 96
+    },
+    "panel.up0" : {
+      "x" : 312,
+      "y" : 580,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.up1" : {
+      "x" : 312,
+      "y" : 836,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.up2" : {
+      "x" : 200,
+      "y" : 384,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.west0" : {
+      "x" : 162,
+      "y" : 700,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.west1" : {
+      "x" : 162,
+      "y" : 956,
+      "w" : 50,
+      "h" : 60
+    },
+    "panel.write0" : {
+      "x" : 812,
+      "y" : 520,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.write1" : {
+      "x" : 812,
+      "y" : 776,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.zapper0" : {
+      "x" : 12,
+      "y" : 520,
+      "w" : 200,
+      "h" : 60
+    },
+    "panel.zapper1" : {
+      "x" : 12,
+      "y" : 776,
+      "w" : 200,
+      "h" : 60
+    },
+    "start.title" : {
+      "x" : 0,
+      "y" : 256,
+      "w" : 768,
+      "h" : 96
+    }
+  },
+  "colors" : {
+    "button_inset" : "#FFFFFF",
+    "button_inset_text" : "#000000",
+    "button_inset_text_disabled" : "#808080",
+    "button_outset" : "#FFFFFF",
+    "button_outset_text" : "#000000",
+    "button_outset_text_disabled" : "#808080",
+    "cursor_normal" : "#FFFFFF",
+    "cursor_wait" : "#FFFFFF",
+    "group_inset" : "#FFFFFF",
+    "group_outset" : "#FFFFFF",
+    "label_text" : "#FFFFFF",
+    "listbox" : "#FFFFFF",
+    "listbox_text" : "#000000",
+    "listbox_text_selected" : "#FFFFFF",
+    "menu" : "#FFFFFF",
+    "menu_text" : "#000000",
+    "menu_text_disabled" : "#808080",
+    "menu_text_selected" : "#FFFFFF",
+    "progress" : "#FFFFFF",
+    "progress_indicator" : "#FFFFFF",
+    "textbox" : "#FFFFFF",
+    "textbox_text" : "#000000",
+    "textbox_text_disabled" : "#808080",
+    "textbox_text_selected" : "#000000",
+    "window_active_caption" : "#FFFFFF",
+    "window_active_caption_text" : "#FFFFFF",
+    "window_background" : "#FFFFFF",
+    "window_border" : "#FFFFFF",
+    "window_inactive_caption" : "#FFFFFF",
+    "window_inactive_caption_text" : "#000000",
+    "window_menu" : "#FFFFFF",
+    "window_menu_text" : "#000000",
+    "window_menu_text_disabled" : "#808080",
+    "window_menu_text_selected" : "#FFFFFF"
+  },
+  "geometry" : {
+    "button_border_width" : 5,
+    "button_height" : 32,
+    "button_inset_offset" : 3,
+    "button_outset_offset" : 0,
+    "checkbox_height" : 32,
+    "checkbox_width" : 250,
+    "cursor_offset_left" : 0,
+    "cursor_offset_top" : 0,
+    "cursor_size" : 24,
+    "enumbox_height" : 32,
+    "enumbox_width" : 250,
+    "group_border_width" : 5,
+    "image_height" : 16,
+    "image_width" : 16,
+    "listbox_border_width" : 5,
+    "listbox_height" : 85,
+    "listbox_width" : 50,
+    "menu_border_width" : 5,
+    "menu_height" : 24,
+    "menu_separator_height" : 6,
+    "menu_top" : 0,
+    "numberbox_height" : 32,
+    "numberbox_width" : 200,
+    "progress_border_width" : 5,
+    "progress_height" : 32,
+    "progress_width" : 50,
+    "textbox_border_width" : 5,
+    "textbox_height" : 32,
+    "textbox_width" : 50,
+    "window_border_width" : 5,
+    "window_caption_height" : 24,
+    "window_caption_top" : 0,
+    "window_grip_size" : 16,
+    "window_menu_height" : 24,
+    "window_menu_top" : 0
+  },
+  "general" : {
+    "font.size" : "20.0",
+    "font.tabstop" : "4",
+    "screen.height" : "768",
+    "screen.width" : "1024"
+  }
+}

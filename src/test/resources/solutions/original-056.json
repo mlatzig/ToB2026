@@ -1,0 +1,91 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-056",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 314,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-12T00:00:00Z",
+  "frames" : 312,
+  "towerChecksum" : "5747b3702fa0fd795b7c46460547199e247c4207b32ead569b5987a7e2111ee9",
+  "game" : "ToB 2026 solver 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 0,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 1,
+      "type" : "Back",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 33,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 34,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 72,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 73,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 146,
+      "type" : "SelectSpider",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 147,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 185,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 217,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 221,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 253,
+      "type" : "TurnLeft",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 254,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 286,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 290,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    }
+  ]
+}

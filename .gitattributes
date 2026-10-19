@@ -1,0 +1,4 @@
+# ToB 2026 (Phase 7d): Git stores and checks out every file byte for byte, also on Windows (no core.autocrlf
+# conversion). The tower files' checksums, the recorded solutions, the LF-only shell scripts and the documents'
+# line-ending tests depend on it.
+* -text

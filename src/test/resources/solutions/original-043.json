@@ -1,0 +1,91 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-043",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 188,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-12T00:00:00Z",
+  "frames" : 178,
+  "towerChecksum" : "213b6cefb42bbe59ef229b4991ca842e7471dc86c841e4839d53ec5a42d7f1d3",
+  "game" : "ToB 2026 solver 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 0,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 1,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 5,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 9,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 41,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 45,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 49,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 81,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 85,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 117,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 121,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 125,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 157,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 161,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 165,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    }
+  ]
+}

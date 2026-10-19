@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.latzig.game</groupId>
+    <artifactId>tob2026</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>ToB 2026</name>
+    <description>Remake of Pete Cooke's Tower of Babel (1989)</description>
+
+    <properties>
+        <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- mvn compile exec:java starts the game; -Dexec.mainClass=... still selects another main class -->
+        <exec.mainClass>de.latzig.game.tob.client.TobApp</exec.mainClass>
+        <!-- the jME buffer cleaner thread would be interrupted at exit (a harmless InterruptedException trace) -->
+        <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
+        <!-- Phase 7c: the JDK of the release build (Eclipse Temurin; its jlink runtime ships in the packages and
+             CREDITS.md names it); the Linux package needs the same version in WSL (src/package/wsl-jdk.sh) -->
+        <tob.release.jdk>21.0.8+9</tob.release.jdk>
+        <!-- Phase 7c fix wave (M7): fixed entry times in the game's jar, and (Zips.ENTRY_TIME, kept equal by
+             ReleaseBuildTest) in the packages' ZIPs, so a rebuild of the same sources gives the same bytes -->
+        <project.build.outputTimestamp>2026-10-19T00:00:00Z</project.build.outputTimestamp>
+
+        <jme.version>3.9.0-stable</jme.version>
+        <lemur.version>1.16.0</lemur.version>
+        <lemur-proto.version>1.13.0</lemur-proto.version>
+        <jackson.version>2.22.3</jackson.version>
+        <slf4j.version>2.0.20</slf4j.version>
+        <logback.version>1.6.5</logback.version>
+        <junit.version>6.1.3</junit.version>
+        <archunit.version>1.5.1</archunit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-core</artifactId>
+            <version>${jme.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-desktop</artifactId>
+            <version>${jme.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-lwjgl3</artifactId>
+            <version>${jme.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-effects</artifactId>
+            <version>${jme.version}</version>
+        </dependency>
+        <!-- Phase 5c-2: jME's OGG Vorbis loader for the menu music (brings com.github.stephengold:j-ogg-vorbis) -->
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-jogg</artifactId>
+            <version>${jme.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.simsilica</groupId>
+            <artifactId>lemur</artifactId>
+            <version>${lemur.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.simsilica</groupId>
+            <artifactId>lemur-proto</artifactId>
+            <version>${lemur-proto.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.tngtech.archunit</groupId>
+            <artifactId>archunit</artifactId>
+            <version>${archunit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.16.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <!-- Phase 3c safety net: no test writes to the development user folder -->
+                        <tob.userdir>${project.build.directory}/test-userdir</tob.userdir>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.6.4</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <!-- Phase 7c: the player packages, mvn -Prelease package; never part of the normal build -->
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <!-- the game's jar without the assets: the packages carry them as a folder next to the jars -->
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <version>3.4.1</version>
+                        <configuration>
+                            <!-- fix wave (I1): rebuild the jar even if a normal build left one with the assets;
+                                 the up-to-date check ignores the changed excludes -->
+                            <forceCreation>true</forceCreation>
+                            <!-- Phase 7d: no copy of pom.xml in the jar (the SVN one names the author's folder) -->
+                            <archive>
+                                <addMavenDescriptor>false</addMavenDescriptor>
+                            </archive>
+                            <excludes>
+                                <exclude>assets/**</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <!-- the runtime libraries with the LWJGL natives of one platform each -->
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-dependency-plugin</artifactId>
+                        <version>3.8.1</version>
+                        <executions>
+                            <execution>
+                                <id>release-libs-windows</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>copy-dependencies</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>${project.build.directory}/release/windows/lib</outputDirectory>
+                                    <includeScope>runtime</includeScope>
+                                    <excludeClassifiers>
+                                        natives-windows-x86,natives-linux,natives-linux-arm32,natives-linux-arm64,
+                                        natives-macos,natives-macos-arm64
+                                    </excludeClassifiers>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>release-libs-linux</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>copy-dependencies</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>${project.build.directory}/release/linux/lib</outputDirectory>
+                                    <includeScope>runtime</includeScope>
+                                    <excludeClassifiers>
+                                        natives-windows,natives-windows-x86,natives-linux-arm32,natives-linux-arm64,
+                                        natives-macos,natives-macos-arm64
+                                    </excludeClassifiers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <!-- jlink, jpackage, the ZIP and its check for the running system (Phase 7d: host);
+                             on Windows then the same inside WSL for Linux -->
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>release-packages</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>java</goal>
+                                </goals>
+                                <configuration>
+                                    <mainClass>de.latzig.game.tob.release.ReleaseBuild</mainClass>
+                                    <classpathScope>test</classpathScope>
+                                    <arguments>
+                                        <argument>host</argument>
+                                        <argument>${project.basedir}</argument>
+                                        <argument>${project.version}</argument>
+                                        <argument>${tob.release.jdk}</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

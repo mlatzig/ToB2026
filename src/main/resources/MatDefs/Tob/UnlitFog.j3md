@@ -1,0 +1,40 @@
+// ToB 2026 Phase 4b-4: jME 3.9's Common/MatDefs/Misc/Unshaded.j3md (the parameters ToB 2026 uses) plus the linear
+// fog of Lighting.j3md, applied to the colour only: an alpha-blended sprite keeps its alpha, so it never turns into a
+// fog-coloured rectangle (ToB 2005 fogs the colour of its alpha-blended parts the same way).
+MaterialDef Unlit Fog {
+
+    MaterialParameters {
+        Int BoundDrawBuffer
+        Texture2D ColorMap
+        Color Color
+        Boolean VertexColor
+        Float AlphaDiscardThreshold
+
+        Boolean UseFog
+        Color FogColor
+        Vector2 LinearFog
+    }
+
+    Technique {
+        VertexShader   GLSL310 GLSL300 GLSL150 GLSL100 : MatDefs/Tob/UnlitFog.vert
+        FragmentShader GLSL310 GLSL300 GLSL150 GLSL100 : MatDefs/Tob/UnlitFog.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+            ViewProjectionMatrix
+            ViewMatrix
+            WorldMatrix
+            CameraPosition
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER : BoundDrawBuffer
+            HAS_COLORMAP : ColorMap
+            HAS_VERTEXCOLOR : VertexColor
+            HAS_COLOR : Color
+            DISCARD_ALPHA : AlphaDiscardThreshold
+            USE_FOG : UseFog
+            FOG_LINEAR : LinearFog
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+  "format" : "tob2026-fxatlas",
+  "version" : 1,
+  "image" : "textures/9995-fx-color.png",
+  "imageWidth" : 1024,
+  "imageHeight" : 1024,
+  "sprites" : {
+    "arrows" : {
+      "x" : 64,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "blend" : {
+      "x" : 256,
+      "y" : 512,
+      "w" : 128,
+      "h" : 32
+    },
+    "compassE" : {
+      "x" : 128,
+      "y" : 0,
+      "w" : 128,
+      "h" : 128
+    },
+    "compassN" : {
+      "x" : 0,
+      "y" : 0,
+      "w" : 128,
+      "h" : 128
+    },
+    "compassS" : {
+      "x" : 256,
+      "y" : 0,
+      "w" : 128,
+      "h" : 128
+    },
+    "compassW" : {
+      "x" : 384,
+      "y" : 0,
+      "w" : 128,
+      "h" : 128
+    },
+    "fade" : {
+      "x" : 256,
+      "y" : 548,
+      "w" : 128,
+      "h" : 24
+    },
+    "flare1" : {
+      "x" : 384,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "flare2" : {
+      "x" : 192,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "flare3" : {
+      "x" : 448,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "flare4" : {
+      "x" : 128,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "flare5" : {
+      "x" : 256,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "flare6" : {
+      "x" : 448,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "glow" : {
+      "x" : 0,
+      "y" : 512,
+      "w" : 256,
+      "h" : 128
+    },
+    "star" : {
+      "x" : 320,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    },
+    "sun" : {
+      "x" : 128,
+      "y" : 448,
+      "w" : 64,
+      "h" : 64
+    }
+  },
+  "sequences" : {
+    "fireball" : {
+      "x" : 512,
+      "y" : 0,
+      "cellW" : 128,
+      "cellH" : 128,
+      "columns" : 4,
+      "frames" : 32
+    },
+    "lightning" : {
+      "x" : 384,
+      "y" : 512,
+      "cellW" : 32,
+      "cellH" : 512,
+      "columns" : 4,
+      "frames" : 4
+    },
+    "moon" : {
+      "x" : 0,
+      "y" : 320,
+      "cellW" : 32,
+      "cellH" : 32,
+      "columns" : 16,
+      "frames" : 64
+    },
+    "smoke" : {
+      "x" : 0,
+      "y" : 128,
+      "cellW" : 64,
+      "cellH" : 64,
+      "columns" : 8,
+      "frames" : 24
+    },
+    "sparkle" : {
+      "x" : 0,
+      "y" : 640,
+      "cellW" : 32,
+      "cellH" : 64,
+      "columns" : 12,
+      "frames" : 12
+    },
+    "sparks" : {
+      "x" : 0,
+      "y" : 448,
+      "cellW" : 16,
+      "cellH" : 16,
+      "columns" : 4,
+      "frames" : 16
+    }
+  },
+  "source" : "ToB 2005 bpe.cpp:119-125 (sun, flares 1-6), 133 (star), 147-155 (compass letters, arrows), 447/744 (blend strip, u = 0.25 + strength * 0.125, one texel column), 523-524 (moon), 683-684 (sparks, cell = sprite frame / 2), 696-697 (smoke), 705-706 (fireball), 820-821 (fade); mesh UVs of 0910 (lightning), 5402 (sparkle), 5501/5511 (glow); report 09 §3.3"
+}

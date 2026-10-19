@@ -1,0 +1,1550 @@
+{
+  "format" : "tob2026-elements",
+  "version" : 4,
+  "elements" : {
+    "BFL" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5100-bonusflag.tobmesh",
+              "texture" : "textures/5100-bonusflag-color.png",
+              "normalMap" : "textures/5101-bonusflag-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "wave" : [
+          0,
+          128
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementBFLRenderer: single group 1; wave = animation driven by the element's animation timestamp; ToB 2005 twr.h:367-368 TWR_BFL_TEX_ID 5100, TWR_BFL_FX 2; twr.cpp:2287"
+    },
+    "BLK" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5000-pushblock.tobmesh",
+              "texture" : "textures/5000-pushblock-color.png",
+              "normalMap" : "textures/5001-pushblock-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5001-pushblock.tobmesh",
+              "texture" : "textures/5000-pushblock-color.png",
+              "normalMap" : "textures/5001-pushblock-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5050-pushblock-expl.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 ObjectElementBLKRenderer: single group 1, parts drawn together; not animated (frame 0); ToB 2005 twr.h:334-335 TWR_BLK_TEX_ID 5000, TWR_BLK_FX 3 (both parts); twr.cpp:2229-2230"
+    },
+    "CVE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5510-converter-ew.tobmesh",
+              "texture" : "textures/5500-converter-color.png",
+              "normalMap" : "textures/5501-converter-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5511-converter-ew.tobmesh",
+              "texture" : "textures/9995-fx-color.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "UNLIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "run" : [
+          0,
+          256
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [
+          "meshes/5560-converter-expl-ew.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementCVXRenderer: single group 1, part 1 = converter body, part 2 = effect part with the FX atlas texture (axis variant NS/EW per element code); run 0-256 loops with a random start offset per element; ToB 2005 twr.h:374-377 TWR_CNV_TEX_ID 5500, TWR_CNV_TEX_ID2 BPE_TEXID, TWR_CNV_FX 3, TWR_CNV_FX2 4 (blended beam); twr.cpp:2291-2297"
+    },
+    "CVN" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5500-converter-ns.tobmesh",
+              "texture" : "textures/5500-converter-color.png",
+              "normalMap" : "textures/5501-converter-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5501-converter-ns.tobmesh",
+              "texture" : "textures/9995-fx-color.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "UNLIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "run" : [
+          0,
+          256
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [
+          "meshes/5550-converter-expl-ns.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementCVXRenderer: single group 1, part 1 = converter body, part 2 = effect part with the FX atlas texture (axis variant NS/EW per element code); run 0-256 loops with a random start offset per element; ToB 2005 twr.h:374-377 TWR_CNV_TEX_ID 5500, TWR_CNV_TEX_ID2 BPE_TEXID, TWR_CNV_FX 3, TWR_CNV_FX2 4 (blended beam); twr.cpp:2291-2297"
+    },
+    "EXC" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5400-exchanger.tobmesh",
+              "texture" : "textures/5400-exchanger-socket-color.png",
+              "normalMap" : "textures/5401-exchanger-socket-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5401-exchanger.tobmesh",
+              "texture" : "textures/5410-exchanger-glass-color.png",
+              "normalMap" : "textures/5411-exchanger-glass-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5402-exchanger.tobmesh",
+              "texture" : "textures/9995-fx-color.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "UNLIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5450-exchanger-expl.tobmesh",
+          "meshes/5451-exchanger-expl.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 ObjectElementEXCRenderer: single group 1, parts drawn together; not animated (frame 0); ToB 2005 twr.h:414-419 TWR_EXC_TEX_ID 5400/5410/BPE_TEXID, TWR_EXC_FX 3/4/4 (3 parts); twr.cpp:2321-2326"
+    },
+    "FCD" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5800-forcer-down.tobmesh",
+              "texture" : "textures/5700-forcerup-color.png",
+              "normalMap" : "textures/5701-forcerup-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5801-forcer-down.tobmesh",
+              "texture" : "textures/5700-forcerup-color.png",
+              "normalMap" : "textures/5701-forcerup-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "run" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5850-forcer-down-expl.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementFCXRenderer: single group 1, parts drawn together; run 0-512 = activation animation; ToB 2005 twr.h:390-391 TWR_FCD_TEX_ID 5800, TWR_FCD_FX 2 (both parts); twr.cpp:2306-2307"
+    },
+    "FCU" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5700-forcer-up.tobmesh",
+              "texture" : "textures/5700-forcerup-color.png",
+              "normalMap" : "textures/5701-forcerup-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5701-forcer-up.tobmesh",
+              "texture" : "textures/5700-forcerup-color.png",
+              "normalMap" : "textures/5701-forcerup-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "run" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5750-forcer-up-expl.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementFCXRenderer: single group 1, parts drawn together; run 0-512 = activation animation; ToB 2005 twr.h:383-384 TWR_FCU_TEX_ID 5700, TWR_FCU_FX 2 (both parts); twr.cpp:2301-2302"
+    },
+    "FPE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3010-enemypusher-e.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3011-enemypusher-e.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:271-272 TWR_ENP_TEX_ID 3000, TWR_ENP_FX 2 (both parts); twr.cpp:2126-2142"
+    },
+    "FPN" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3000-enemypusher-n.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3001-enemypusher-n.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:271-272 TWR_ENP_TEX_ID 3000, TWR_ENP_FX 2 (both parts); twr.cpp:2126-2142"
+    },
+    "FPS" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3020-enemypusher-s.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3021-enemypusher-s.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:271-272 TWR_ENP_TEX_ID 3000, TWR_ENP_FX 2 (both parts); twr.cpp:2126-2142"
+    },
+    "FPW" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3030-enemypusher-w.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3031-enemypusher-w.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:271-272 TWR_ENP_TEX_ID 3000, TWR_ENP_FX 2 (both parts); twr.cpp:2126-2142"
+    },
+    "FRZ" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5900-freezer.tobmesh",
+              "texture" : "textures/5900-freezer-color.png",
+              "normalMap" : "textures/5901-freezer-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5901-freezer.tobmesh",
+              "texture" : "textures/5900-freezer-color.png",
+              "normalMap" : "textures/5901-freezer-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5902-freezer.tobmesh",
+              "texture" : "textures/5900-freezer-color.png",
+              "normalMap" : "textures/5901-freezer-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "run" : [
+          0,
+          2048
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5950-freezer-expl.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 ObjectElementFRZRenderer: single group 1, parts drawn together; run 0-2048 = activation animation; ToB 2005 twr.h:397-400 TWR_FRZ_TEX_ID 5900, TWR_FRZ_FX 3, TWR_FRZ_FX2 2, TWR_FRZ_FX3 4 (3 parts); twr.cpp:2311-2313"
+    },
+    "FZE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3210-enemyzapper-e.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3211-enemyzapper-e.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:251-253 TWR_ENZ_TEX_ID 3200, TWR_ENZ_FX 2, TWR_ENZ_FX2 2; twr.cpp:2101-2117"
+    },
+    "FZN" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3200-enemyzapper-n.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3201-enemyzapper-n.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:251-253 TWR_ENZ_TEX_ID 3200, TWR_ENZ_FX 2, TWR_ENZ_FX2 2; twr.cpp:2101-2117"
+    },
+    "FZS" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3220-enemyzapper-s.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3221-enemyzapper-s.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:251-253 TWR_ENZ_TEX_ID 3200, TWR_ENZ_FX 2, TWR_ENZ_FX2 2; twr.cpp:2101-2117"
+    },
+    "FZW" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3230-enemyzapper-w.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3231-enemyzapper-w.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "active" : [
+          0,
+          192
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (fixed enemy): single group 1, parts drawn together (pre-rotated mesh per facing direction in the element code); active 0-192 = facing animation; ToB 2005 twr.h:251-253 TWR_ENZ_TEX_ID 3200, TWR_ENZ_FX 2, TWR_ENZ_FX2 2; twr.cpp:2101-2117"
+    },
+    "GRB" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2200-grabber-n.tobmesh",
+              "texture" : "textures/2000-zapper-color.png",
+              "normalMap" : "textures/2001-zapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "2" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2210-grabber-e.tobmesh",
+              "texture" : "textures/2000-zapper-color.png",
+              "normalMap" : "textures/2001-zapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "3" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2220-grabber-klondikes.tobmesh",
+              "texture" : "textures/2500-klondike-color.png",
+              "normalMap" : "textures/2501-klondike-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "walk" : [
+          0,
+          512
+        ],
+        "idle" : [
+          512,
+          640
+        ],
+        "carry" : [
+          0,
+          170
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementGRBRenderer (AbstractObjectElementSPDRenderer): group 1 = facing N/S, group 2 = facing E/W; S and W play the walk range backwards (frame 512 - t); walk 0-512 while moving, idle 512-640 while standing; group 3 = carried klondikes, drawn once per collected klondike, carry 0-170 (walk/idle apply to groups 1-2 only, carry to group 3 only); ToB 2005 twr.h:246-247 TWR_GRB_FX 3, twr.h:158-160 TWR_GRBKLD_FX 2 (carried klondikes); twr.cpp:2070, 2086"
+    },
+    "HOP" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4000-hopper.tobmesh",
+              "texture" : "textures/4000-hopper-color.png",
+              "normalMap" : "textures/4001-hopper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "2" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4010-hopper-n.tobmesh",
+              "texture" : "textures/4000-hopper-color.png",
+              "normalMap" : "textures/4001-hopper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "3" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4020-hopper-e.tobmesh",
+              "texture" : "textures/4000-hopper-color.png",
+              "normalMap" : "textures/4001-hopper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "4" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4030-hopper-s.tobmesh",
+              "texture" : "textures/4000-hopper-color.png",
+              "normalMap" : "textures/4001-hopper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "5" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4040-hopper-w.tobmesh",
+              "texture" : "textures/4000-hopper-color.png",
+              "normalMap" : "textures/4001-hopper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "idle" : [
+          0,
+          256
+        ],
+        "move" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementHOPRenderer: group 1 = standing (idle 0-256), groups 2/3/4/5 = moving N/E/S/W (move 0-512); ToB 2005 twr.h:304-305 TWR_HOP_TEX_ID 4000, TWR_HOP_FX 3; twr.cpp:2202"
+    },
+    "KLD" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2500-klondike.tobmesh",
+              "texture" : "textures/2500-klondike-color.png",
+              "normalMap" : "textures/2501-klondike-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "spin" : [
+          0,
+          170
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementKLDRenderer: single group 1; spin 0-170 = grabbing animation; ToB 2005 twr.h:360-361 TWR_KLD_TEX_ID 2500, TWR_KLD_FX 2; twr.cpp:2283"
+    },
+    "LZE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4310-lizard-ew.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4311-lizard-ew.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4312-lizard-ew.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4313-lizard-ew.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4314-lizard-ew.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "move" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementLZXRenderer: single group 1, body + 4 legs drawn together (axis variant NS/EW per element code); move 0-512 while moving, frame 0 while standing; ToB 2005 twr.h:353-354 TWR_LZD_TEX_ID 4300, TWR_LZD_FX 3 (5 parts); twr.cpp:2263-2279"
+    },
+    "LZN" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4300-lizard-ns.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4301-lizard-ns.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4302-lizard-ns.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4303-lizard-ns.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4304-lizard-ns.tobmesh",
+              "texture" : "textures/4300-lizard-color.png",
+              "normalMap" : "textures/4301-lizard-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "move" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementLZXRenderer: single group 1, body + 4 legs drawn together (axis variant NS/EW per element code); move 0-512 while moving, frame 0 while standing; ToB 2005 twr.h:353-354 TWR_LZD_TEX_ID 4300, TWR_LZD_FX 3 (5 parts); twr.cpp:2263-2279"
+    },
+    "PNE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5200-prism-ne.tobmesh",
+              "texture" : "textures/5200-prism-socket-color.png",
+              "normalMap" : "textures/5201-prism-socket-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5201-prism-ne.tobmesh",
+              "texture" : "textures/5210-prism-glass-color.png",
+              "normalMap" : "textures/5211-prism-glass-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5260-prism-expl-ne.tobmesh",
+          "meshes/5261-prism-expl-ne.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementPXXRenderer: single group 1, socket + glass part drawn together; not animated (frame 0); ToB 2005 twr.h:346-349 TWR_PRI_TEX_ID 5200, TWR_PRI_TEX_ID2 5210, TWR_PRI_FX 3, TWR_PRI_FX2 4; twr.cpp:2239-2255"
+    },
+    "PNW" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5210-prism-nw.tobmesh",
+              "texture" : "textures/5200-prism-socket-color.png",
+              "normalMap" : "textures/5201-prism-socket-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5211-prism-nw.tobmesh",
+              "texture" : "textures/5210-prism-glass-color.png",
+              "normalMap" : "textures/5211-prism-glass-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5250-prism-expl-nw.tobmesh",
+          "meshes/5251-prism-expl-nw.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementPXXRenderer: single group 1, socket + glass part drawn together; not animated (frame 0); ToB 2005 twr.h:346-349 TWR_PRI_TEX_ID 5200, TWR_PRI_TEX_ID2 5210, TWR_PRI_FX 3, TWR_PRI_FX2 4; twr.cpp:2239-2255"
+    },
+    "PRM" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/6000-proximitymine.tobmesh",
+              "texture" : "textures/6000-proximitymine-color.png",
+              "normalMap" : "textures/6001-proximitymine-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/6001-proximitymine.tobmesh",
+              "texture" : "textures/6000-proximitymine-color.png",
+              "normalMap" : "textures/6001-proximitymine-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/6002-proximitymine.tobmesh",
+              "texture" : "textures/6000-proximitymine-color.png",
+              "normalMap" : "textures/6001-proximitymine-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/6003-proximitymine.tobmesh",
+              "texture" : "textures/6000-proximitymine-color.png",
+              "normalMap" : "textures/6001-proximitymine-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/6004-proximitymine.tobmesh",
+              "texture" : "textures/6000-proximitymine-color.png",
+              "normalMap" : "textures/6001-proximitymine-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "trigger" : [
+          0,
+          96
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementPRMRenderer: single group 1, base + 4 flaps drawn together; trigger 0-96; ToB 2005 twr.h:314-315 TWR_PRM_TEX_ID 6000, TWR_PRM_FX 2 (5 parts); twr.cpp:2206-2210"
+    },
+    "PSE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5220-prism-se.tobmesh",
+              "texture" : "textures/5200-prism-socket-color.png",
+              "normalMap" : "textures/5201-prism-socket-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5221-prism-se.tobmesh",
+              "texture" : "textures/5210-prism-glass-color.png",
+              "normalMap" : "textures/5211-prism-glass-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5270-prism-expl-se.tobmesh",
+          "meshes/5271-prism-expl-se.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementPXXRenderer: single group 1, socket + glass part drawn together; not animated (frame 0); ToB 2005 twr.h:346-349 TWR_PRI_TEX_ID 5200, TWR_PRI_TEX_ID2 5210, TWR_PRI_FX 3, TWR_PRI_FX2 4; twr.cpp:2239-2255"
+    },
+    "PSH" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2100-pusher-n.tobmesh",
+              "texture" : "textures/2000-zapper-color.png",
+              "normalMap" : "textures/2001-zapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "2" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2110-pusher-e.tobmesh",
+              "texture" : "textures/2000-zapper-color.png",
+              "normalMap" : "textures/2001-zapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "walk" : [
+          0,
+          512
+        ],
+        "idle" : [
+          512,
+          640
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementSPDRenderer: group 1 = facing N/S, group 2 = facing E/W; S and W play the walk range backwards (frame 512 - t); walk 0-512 while moving, idle 512-640 while standing; ToB 2005 twr.h:241-242 TWR_PSH_TEX_ID 2100, TWR_PSH_FX 3; twr.cpp:2053"
+    },
+    "PSW" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5230-prism-sw.tobmesh",
+              "texture" : "textures/5200-prism-socket-color.png",
+              "normalMap" : "textures/5201-prism-socket-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5231-prism-sw.tobmesh",
+              "texture" : "textures/5210-prism-glass-color.png",
+              "normalMap" : "textures/5211-prism-glass-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5280-prism-expl-sw.tobmesh",
+          "meshes/5281-prism-expl-sw.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementPXXRenderer: single group 1, socket + glass part drawn together; not animated (frame 0); ToB 2005 twr.h:346-349 TWR_PRI_TEX_ID 5200, TWR_PRI_TEX_ID2 5210, TWR_PRI_FX 3, TWR_PRI_FX2 4; twr.cpp:2239-2255"
+    },
+    "REL" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5300-reflector.tobmesh",
+              "texture" : "textures/5300-reflector-socket-color.png",
+              "normalMap" : "textures/5301-reflector-socket-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/5301-reflector.tobmesh",
+              "texture" : "textures/5310-reflector-glass-color.png",
+              "normalMap" : "textures/5311-reflector-glass-normal.png",
+              "render" : "GLASS",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : { },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [
+          "meshes/5350-reflector-expl.tobmesh",
+          "meshes/5351-reflector-expl.tobmesh"
+        ]
+      },
+      "source" : "ToB 2009 ObjectElementRELRenderer: single group 1, parts drawn together; not animated (frame 0); ToB 2005 twr.h:339-342 TWR_REL_TEX_ID 5300, TWR_REL_TEX_ID2 5310, TWR_REL_FX 3, TWR_REL_FX2 4; twr.cpp:2234-2235"
+    },
+    "RPN" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3100-rotatingpusher.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3101-rotatingpusher.tobmesh",
+              "texture" : "textures/3000-enemypusher-color.png",
+              "normalMap" : "textures/3001-enemypusher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "rotate" : [
+          0,
+          1024
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (rotating enemy): single group 1, parts drawn together; rotate 0-1024 = facing animation (the rotation is in the mesh keys); ToB 2005 twr.h:278-279 TWR_RPN_TEX_ID 3100, TWR_RPN_FX 2 (both parts); twr.cpp:2146-2147"
+    },
+    "RZN" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/3300-rotatingzapper.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/3301-rotatingzapper.tobmesh",
+              "texture" : "textures/3200-enemyzapper-color.png",
+              "normalMap" : "textures/3201-enemyzapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "rotate" : [
+          0,
+          1024
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementENYRenderer (rotating enemy): single group 1, parts drawn together; rotate 0-1024 = facing animation (the rotation is in the mesh keys); ToB 2005 twr.h:261-263 TWR_RZN_TEX_ID 3300, TWR_RZN_FX 2, TWR_RZN_FX2 2; twr.cpp:2121-2122"
+    },
+    "TMB" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/6100-timebomb-slow.tobmesh",
+              "texture" : "textures/6100-timebomb-color.png",
+              "normalMap" : "textures/6101-timebomb-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "2" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/6110-timebomb-medium.tobmesh",
+              "texture" : "textures/6100-timebomb-color.png",
+              "normalMap" : "textures/6101-timebomb-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "3" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/6120-timebomb-fast.tobmesh",
+              "texture" : "textures/6100-timebomb-color.png",
+              "normalMap" : "textures/6101-timebomb-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "slow" : [
+          0,
+          12784
+        ],
+        "medium" : [
+          0,
+          6384
+        ],
+        "fast" : [
+          0,
+          4416
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementTMBRenderer: group 1 = slow, group 2 = medium, group 3 = fast (TimeBombSpeed); each range applies only to its own group, countdown digits animated via UV; fast: game logic 266 units = 4256 frames decides the duration; ToB 2005 twr.h:323-324 TWR_TMB_TEX_ID 6100, TWR_TMB_FX 2; twr.cpp:2217-2223"
+    },
+    "WAT" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4200-watcher.tobmesh",
+              "texture" : "textures/4200-watcher-color.png",
+              "normalMap" : "textures/4201-watcher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4201-watcher.tobmesh",
+              "texture" : "textures/4200-watcher-color.png",
+              "normalMap" : "textures/4201-watcher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            },
+            {
+              "mesh" : "meshes/4202-watcher.tobmesh",
+              "texture" : "textures/4200-watcher-color.png",
+              "normalMap" : "textures/4201-watcher-normal.png",
+              "render" : "OPAQUE",
+              "specular" : false,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "move" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementWATRenderer: single group 1, parts drawn together and rotated about Y by the game logic; move 0-512 while moving, frame 0 while standing; ToB 2005 twr.h:295-296 TWR_WAT_TEX_ID 4200, TWR_WAT_FX 2 (3 parts); twr.cpp:2171-2179"
+    },
+    "WIP" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/5600-wiper.tobmesh",
+              "texture" : "textures/5600-wiper-color.png",
+              "normalMap" : "textures/5601-wiper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "run" : [
+          0,
+          256
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 ObjectElementWIPRenderer: single group 1; run = animation driven by the element's facing timestamp; ToB 2005 twr.h:407-408 TWR_WIP_TEX_ID 5600, TWR_WIP_FX 3; twr.cpp:2317"
+    },
+    "WOE" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4110-worm-ew.tobmesh",
+              "texture" : "textures/4100-worm-color.png",
+              "normalMap" : "textures/4101-worm-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "move" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementWOXRenderer: single group 1 (axis variant NS/EW per element code); move 0-512 while moving, frame 0 while standing; ToB 2005 twr.h:287-288 TWR_WRM_TEX_ID 4100, TWR_WRM_FX 3; twr.cpp:2152-2161"
+    },
+    "WON" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/4100-worm-ns.tobmesh",
+              "texture" : "textures/4100-worm-color.png",
+              "normalMap" : "textures/4101-worm-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "move" : [
+          0,
+          512
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 6,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementWOXRenderer: single group 1 (axis variant NS/EW per element code); move 0-512 while moving, frame 0 while standing; ToB 2005 twr.h:287-288 TWR_WRM_TEX_ID 4100, TWR_WRM_FX 3; twr.cpp:2152-2161"
+    },
+    "ZAP" : {
+      "groups" : {
+        "1" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2000-zapper-n.tobmesh",
+              "texture" : "textures/2000-zapper-color.png",
+              "normalMap" : "textures/2001-zapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        },
+        "2" : {
+          "parts" : [
+            {
+              "mesh" : "meshes/2010-zapper-e.tobmesh",
+              "texture" : "textures/2000-zapper-color.png",
+              "normalMap" : "textures/2001-zapper-normal.png",
+              "render" : "OPAQUE",
+              "specular" : true,
+              "lighting" : "LIT",
+              "tint" : "#FFFFFF"
+            }
+          ]
+        }
+      },
+      "animations" : {
+        "walk" : [
+          0,
+          512
+        ],
+        "idle" : [
+          512,
+          640
+        ]
+      },
+      "explosion" : {
+        "spriteOffset" : 8,
+        "meshes" : [ ]
+      },
+      "source" : "ToB 2009 AbstractObjectElementSPDRenderer: group 1 = facing N/S, group 2 = facing E/W; S and W play the walk range backwards (frame 512 - t); walk 0-512 while moving, idle 512-640 while standing; ToB 2005 twr.h:236-237 TWR_ZAP_TEX_ID 2000, TWR_ZAP_FX 3; twr.cpp:2036"
+    }
+  },
+  "base" : {
+    "fx" : {
+      "texture" : "textures/9995-fx-color.png"
+    },
+    "ground" : {
+      "texture" : "textures/9101-ground-color.png"
+    },
+    "haze" : {
+      "texture" : "textures/9996-haze-color.png"
+    },
+    "lift" : {
+      "texture" : "textures/1000-static-color.png",
+      "normalMap" : "textures/1001-static-normal.png"
+    },
+    "playground" : {
+      "texture" : "textures/0001-playground-color.png"
+    },
+    "sky" : {
+      "texture" : "textures/9100-sky-color.png"
+    },
+    "static" : {
+      "texture" : "textures/1000-static-color.png",
+      "normalMap" : "textures/1001-static-normal.png"
+    },
+    "static-bottom" : {
+      "texture" : "textures/1000-static-bottom-color.png",
+      "normalMap" : "textures/1001-static-bottom-normal.png"
+    },
+    "static-detail" : {
+      "texture" : "textures/1002-static-detail.png"
+    },
+    "static-side-a" : {
+      "texture" : "textures/1000-static-side-a-color.png",
+      "normalMap" : "textures/1001-static-side-a-normal.png"
+    },
+    "static-side-b" : {
+      "texture" : "textures/1000-static-side-b-color.png",
+      "normalMap" : "textures/1001-static-side-b-normal.png"
+    },
+    "static-top" : {
+      "texture" : "textures/1000-static-top-color.png",
+      "normalMap" : "textures/1001-static-top-normal.png"
+    }
+  }
+}

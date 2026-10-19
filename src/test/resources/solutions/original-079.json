@@ -1,0 +1,61 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-079",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 90,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-12T00:00:00Z",
+  "frames" : 81,
+  "towerChecksum" : "8fbdffdb3e82e69a7ea208a7fea0816e14b6833a54a66bda2807f47889898500",
+  "game" : "ToB 2026 solver 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 0,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 4,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 8,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 16,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 20,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 28,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 29,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 60,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 68,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    }
+  ]
+}

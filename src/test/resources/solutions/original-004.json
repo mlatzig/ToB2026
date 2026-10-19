@@ -1,0 +1,2936 @@
+{
+  "format" : "tob2026-recording",
+  "version" : 2,
+  "tower" : "original-004",
+  "options" : {
+    "backwardsAllowed" : false
+  },
+  "length" : 979,
+  "outcome" : "completed",
+  "recordedAt" : "2026-10-11T13:54:52Z",
+  "frames" : 901,
+  "towerChecksum" : "c92d770d68da0585d6abb4b13581f401259419b239a10cbe3ee0e2fd571c23f7",
+  "game" : "ToB 2026 0.1.0-SNAPSHOT",
+  "commands" : [
+    {
+      "step" : 22,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 28,
+      "type" : "TurnLeft",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 68,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 77,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 79,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 80,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 81,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 82,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 83,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 84,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 85,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 86,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 87,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 88,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 89,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 90,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 91,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 92,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 93,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 94,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 95,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 96,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 97,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 98,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 99,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 100,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 101,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 102,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 103,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 104,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 105,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 106,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 107,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 108,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 109,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 110,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 111,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 112,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 113,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 114,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 115,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 116,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 117,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 118,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 119,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 120,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 121,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 122,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 123,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 124,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 125,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 126,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 127,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 128,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 129,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 130,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 131,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 132,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 133,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 134,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 135,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 136,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 137,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 138,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 139,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 141,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 159,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 175,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 182,
+      "type" : "SelectSpider",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 186,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 192,
+      "type" : "TurnLeft",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 194,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 196,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 197,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 198,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 199,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 200,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 201,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 202,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 203,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 204,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 205,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 206,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 207,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 208,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 209,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 210,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 211,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 212,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 213,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 214,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 215,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 216,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 217,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 218,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 219,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 220,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 221,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 222,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 223,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 224,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 225,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 226,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 227,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 228,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 229,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 230,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 231,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 232,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 233,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 234,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 235,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 236,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 237,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 238,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 239,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 240,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 241,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 242,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 243,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 244,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 245,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 246,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 247,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 248,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 249,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 250,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 251,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 252,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 253,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 254,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 255,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 256,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 257,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 258,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 259,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 260,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 262,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 272,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 276,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 278,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 280,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 281,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 283,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 285,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 286,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 288,
+      "type" : "Fire",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 297,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 299,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 300,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 301,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 302,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 303,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 304,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 305,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 306,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 307,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 308,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 311,
+      "type" : "TurnLeft",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 317,
+      "type" : "Back",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 331,
+      "type" : "TurnRight",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 335,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 339,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 341,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 342,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 343,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 344,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 345,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 346,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 347,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 348,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 349,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 350,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 351,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 352,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 353,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 354,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 355,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 356,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 357,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 358,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 359,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 360,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 361,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 362,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 363,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 364,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 365,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 366,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 367,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 368,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 369,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 370,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 371,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 372,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 373,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 374,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 375,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 376,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 377,
+      "type" : "Forward",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 390,
+      "type" : "TurnLeft",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 399,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 403,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 408,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 412,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 414,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 418,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 424,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 444,
+      "type" : "SelectSpider",
+      "spider" : "ZAPPER"
+    },
+    {
+      "step" : 456,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 459,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 466,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 478,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 482,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 491,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 498,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 501,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 504,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 525,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 529,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 533,
+      "type" : "SelectSpider",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 537,
+      "type" : "TurnRight",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 541,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 544,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 546,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 547,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 548,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 549,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 550,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 551,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 552,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 553,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 554,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 555,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 556,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 557,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 558,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 559,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 560,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 561,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 562,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 563,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 564,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 565,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 566,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 567,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 568,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 569,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 570,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 571,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 572,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 573,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 574,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 575,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 576,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 577,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 578,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 579,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 580,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 581,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 582,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 583,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 584,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 585,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 586,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 587,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 588,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 589,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 590,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 591,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 592,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 593,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 594,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 595,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 596,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 597,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 598,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 599,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 600,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 601,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 602,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 603,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 604,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 605,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 606,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 607,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 608,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 609,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 610,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 611,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 612,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 613,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 614,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 615,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 616,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 617,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 618,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 619,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 620,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 621,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 622,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 623,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 624,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 625,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 626,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 627,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 628,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 629,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 630,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 631,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 632,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 633,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 634,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 635,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 636,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 637,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 638,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 639,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 640,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 641,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 642,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 643,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 644,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 645,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 646,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 647,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 648,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 653,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 655,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 656,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 657,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 658,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 659,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 660,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 661,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 662,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 663,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 664,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 665,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 666,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 667,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 668,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 669,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 670,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 671,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 672,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 673,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 674,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 675,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 676,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 677,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 678,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 679,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 680,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 681,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 682,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 683,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 684,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 685,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 686,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 687,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 688,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 689,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 690,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 691,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 692,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 693,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 694,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 695,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 696,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 697,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 698,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 699,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 700,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 701,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 702,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 703,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 704,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 705,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 706,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 707,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 708,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 709,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 710,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 711,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 712,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 713,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 714,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 715,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 716,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 717,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 718,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 719,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 720,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 721,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 722,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 723,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 724,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 725,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 726,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 727,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 728,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 729,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 730,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 731,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 732,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 733,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 734,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 735,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 736,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 737,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 738,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 739,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 742,
+      "type" : "TurnLeft",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 744,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 746,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 747,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 748,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 749,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 750,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 751,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 752,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 753,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 754,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 755,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 756,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 757,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 758,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 759,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 760,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 761,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 762,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 763,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 764,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 765,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 766,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 767,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 768,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 769,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 770,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 771,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 772,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 773,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 774,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 775,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 776,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 777,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 778,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 779,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 780,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 781,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 782,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 783,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 784,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 785,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 786,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 787,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 788,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 789,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 790,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 791,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 792,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 793,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 794,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 795,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 796,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 797,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 798,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 799,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 800,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 801,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 802,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 803,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 804,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 805,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 806,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 807,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 808,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 809,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 810,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 811,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 812,
+      "type" : "Forward",
+      "spider" : "PUSHER"
+    },
+    {
+      "step" : 821,
+      "type" : "SelectSpider",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 823,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 826,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 829,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 831,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 832,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 833,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 834,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 835,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 836,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 837,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 838,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 839,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 840,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 841,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 842,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 843,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 844,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 845,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 846,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 847,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 848,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 849,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 850,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 851,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 852,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 853,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 854,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 855,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 856,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 857,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 858,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 859,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 860,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 861,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 862,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 863,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 864,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 865,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 866,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 867,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 868,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 869,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 870,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 871,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 872,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 873,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 874,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 875,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 876,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 877,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 878,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 879,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 880,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 881,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 883,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 889,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 892,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 896,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 901,
+      "type" : "TurnLeft",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 903,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 905,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 906,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 907,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 908,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 909,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 910,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 911,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 912,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 913,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 914,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 915,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 916,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 917,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 918,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 919,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 920,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 921,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 922,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 923,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 924,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 925,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 926,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 927,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 928,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 929,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 930,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 931,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 932,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 933,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 934,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 935,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 936,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 937,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 938,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 939,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 940,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 941,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 942,
+      "type" : "Forward",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 944,
+      "type" : "TurnRight",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 949,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    },
+    {
+      "step" : 956,
+      "type" : "Fire",
+      "spider" : "GRABBER"
+    }
+  ]
+}

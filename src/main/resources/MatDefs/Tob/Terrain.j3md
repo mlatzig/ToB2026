@@ -1,0 +1,139 @@
+// ToB 2026 Phase 4b-4: the terrain, ToB 2005's Ground shader (Ground-14.vsh/.psh) on jME 3.9's Phong lighting.
+// Based on Common/MatDefs/Light/Lighting.j3md: the same vertex shader (TexCoord2 carries the ground and mountain
+// weights, SEPARATE_TEXCOORD always on), its own fragment shader for the three textures, and Lighting.j3md's
+// PreShadow and PostShadow techniques with the parameters jME's shadow renderer sets, so the terrain still receives
+// the sun's shadows (Phase 5e shadow fix: through the ToB post-shadow shaders, MatDefs/Tob/PostShadow.vert/.frag);
+// the linear fog as Lighting.j3md's.
+MaterialDef Tob Terrain {
+
+    MaterialParameters {
+        Int BoundDrawBuffer
+
+        Boolean UseMaterialColors
+        Boolean UseVertexColor
+        Color Ambient
+        Color Diffuse
+        Color Specular
+        Float Shininess : 1
+
+        // the ground texture (15 tiles), the ground detail texture (DetailScale times on top) and the mountains
+        Texture2D DiffuseMap
+        Texture2D DetailMap
+        Texture2D MountainMap
+        Float DetailScale : 20
+
+        // shadows (as Lighting.j3md)
+        Int FilterMode
+        Boolean HardwareShadows
+        Texture2D ShadowMap0
+        Texture2D ShadowMap1
+        Texture2D ShadowMap2
+        Texture2D ShadowMap3
+        Texture2D ShadowMap4
+        Texture2D ShadowMap5
+        Float ShadowIntensity
+        Vector4 Splits
+        Vector2 FadeInfo
+        Matrix4 LightViewProjectionMatrix0
+        Matrix4 LightViewProjectionMatrix1
+        Matrix4 LightViewProjectionMatrix2
+        Matrix4 LightViewProjectionMatrix3
+        Matrix4 LightViewProjectionMatrix4
+        Matrix4 LightViewProjectionMatrix5
+        Vector3 LightPos
+        Vector3 LightDir
+        Float PCFEdge
+        Float ShadowMapSize
+        Boolean BackfaceShadows : false
+        // the ToB post-shadow shaders (as MatDefs/Tob/Lighting.j3md, MaterialTuning.SHADOW_NORMAL_OFFSET)
+        Float ShadowNormalOffset : 0.02
+
+        // fog (as Lighting.j3md)
+        Boolean UseFog
+        Color FogColor
+        Vector2 LinearFog
+    }
+
+    Technique {
+        LightMode MultiPass
+
+        VertexShader   GLSL310 GLSL300 GLSL150 GLSL100 : Common/MatDefs/Light/Lighting.vert
+        FragmentShader GLSL310 GLSL300 GLSL150 GLSL100 : MatDefs/Tob/Terrain.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+            NormalMatrix
+            WorldViewMatrix
+            ViewMatrix
+            CameraPosition
+            WorldMatrix
+            ViewProjectionMatrix
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER : BoundDrawBuffer
+            VERTEX_COLOR : UseVertexColor
+            MATERIAL_COLORS : UseMaterialColors
+            SEPARATE_TEXCOORD
+            USE_FOG : UseFog
+            FOG_LINEAR : LinearFog
+        }
+    }
+
+    Technique PreShadow {
+
+        VertexShader   GLSL310 GLSL300 GLSL150 GLSL100 : Common/MatDefs/Shadow/PreShadow.vert
+        FragmentShader GLSL310 GLSL300 GLSL150 GLSL100 : Common/MatDefs/Shadow/PreShadow.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+            WorldViewMatrix
+            ViewProjectionMatrix
+            ViewMatrix
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER : BoundDrawBuffer
+        }
+
+        ForcedRenderState {
+            FaceCull Off
+            DepthTest On
+            DepthWrite On
+            PolyOffset 5 3
+            ColorWrite Off
+        }
+    }
+
+    Technique PostShadow {
+
+        VertexShader   GLSL310 GLSL300 GLSL150 GLSL100 : MatDefs/Tob/PostShadow.vert
+        FragmentShader GLSL310 GLSL300 GLSL150 GLSL100 : MatDefs/Tob/PostShadow.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+            WorldMatrix
+            ViewProjectionMatrix
+            ViewMatrix
+            NormalMatrix
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER : BoundDrawBuffer
+            HARDWARE_SHADOWS : HardwareShadows
+            FILTER_MODE : FilterMode
+            PCFEDGE : PCFEdge
+            SHADOWMAP_SIZE : ShadowMapSize
+            FADE : FadeInfo
+            PSSM : Splits
+            POINTLIGHT : LightViewProjectionMatrix5
+            BACKFACE_SHADOWS : BackfaceShadows
+        }
+
+        ForcedRenderState {
+            Blend Modulate
+            DepthWrite Off
+            PolyOffset 0 -1
+        }
+    }
+}
